@@ -8,11 +8,7 @@ window.onload = function loadfn() {
 window.turnChanger = function turnChanger() {
 	if (currentUser == "Mario") {
 		currentUser = "Juan";
-	} 
-	else if (currentUser == "Juan"){
-	currentUser = "Pepe";
-	}
-	else {
+	} else {
 		currentUser = "Mario";
 	}
 
